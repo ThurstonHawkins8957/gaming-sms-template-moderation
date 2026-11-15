@@ -1,0 +1,12 @@
+{
+  "name": "gaming-sms-template-moderation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/template_service.ts",
+    "test": "tsx test/template_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.24.2" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.8.2", "@types/node": "^22.13.0" }
+}
